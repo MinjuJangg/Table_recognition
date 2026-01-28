@@ -1,12 +1,12 @@
 # [오케스트로] 한국어 표 인식을 위한 UniTable 활용
 
-해당 프로젝트는 표(Table) 인식 분야의 SOTA모델인 UniTable을 한국어 데이터에 적용한 연구입니다. 
-UniTable은 `표의 구조(Table Structure)`, `테두리 좌표(Bounding Box)`, `셀 내용(Cell Content)`을 동시에 예측하지만, 영어 기반 학습모델이라 한국어 처리에 한계가 있었습니다. 
-특히, `셀 내용(Cell Content)`에서 한국어 인식 정확도가 낮아 이를 개선하기 위해 3가지의 한국어 OCR을 추가했습니다.
+해당 프로젝트는 표(Table) 인식 분야의 SOTA모델인 UniTable을 한국어 데이터에 적용한 연구
+UniTable은 `표의 구조(Table Structure)`, `테두리 좌표(Bounding Box)`, `셀 내용(Cell Content)`을 동시에 예측하지만, 영어 기반 학습모델이라 한국어 처리에 한계
+특히, `셀 내용(Cell Content)`에서 한국어 인식 정확도가 낮아 이를 개선하기 위해 3가지의 한국어 OCR을 추가
 
-한국어 테이블 데이터셋의 부재의 한계에도 불구하고 영어 기반 SOTA모델의 한국어 확장 가능성을 탐구하고, 다국어 표 인식의 기반을 마련했다는 점에서 의의가 있습니다.
+한국어 테이블 데이터셋의 부재의 한계에도 불구하고 영어 기반 SOTA모델의 한국어 확장 가능성을 탐구하고, 다국어 표 인식의 기반을 마련했다는 점에서 의의
 
-[notebook.ipynb](https://github.com/Boradori127/Table_Recognition/blob/master/notebook.ipynb) 파일을 실행하면 데모 확인이 가능합니다.
+[notebook.ipynb](https://github.com/Boradori127/Table_Recognition/blob/master/notebook.ipynb) 파일을 실행하면 데모 확인이 가능
 
 <br/>
 
